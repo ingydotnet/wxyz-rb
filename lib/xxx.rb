@@ -3,7 +3,8 @@ def WWW *args
   args.each do |a|
     STDERR.puts YAML.dump a
   end
-  return args
+  STDERR.puts caller[0]
+  return *args
 end
 
 def XXX *args
@@ -11,6 +12,7 @@ def XXX *args
   args.each do |a|
     STDERR.puts YAML.dump a
   end
+  STDERR.puts caller[0]
   exit
 end
 
@@ -19,7 +21,8 @@ def YYY *args
   args.each do |a|
     STDOUT.puts YAML.dump a
   end
-  return args
+  STDOUT.puts caller[0]
+  return *args
 end
 
 def ZZZ *args
