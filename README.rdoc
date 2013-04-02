@@ -1,0 +1,36 @@
+= wxyz
+
+XXX Debugging for Ruby (See your Ruby data in the nude)
+
+= Usage
+
+In your code, put a WWW, XXX, YYY or ZZZ next to some variables you want
+dumped.
+
+    def foo(blah, blarr)
+      XXX barrr = bar(YYY blah, blarr)
+    end
+
+Then run your code with:
+
+    $ ruby -rwxyz …
+
+= Functions
+
+When required, wxyz provides these top level functions:
+
+== WWW
+
+Warns a YAML dump of its arguments and returns them, splatted.
+
+== XXX
+
+Prints a YAML dump of its arguments and exits.
+
+== YYY
+
+Prints a YAML dump of its arguments and returns them, splatted.
+
+== ZZZ
+
+Prints a YAML dump of its arguments with stack trace and exits.

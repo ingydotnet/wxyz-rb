@@ -1,0 +1,6 @@
+- version: 0.0.2
+  date:    Mon Apr  1 21:53:09 PDT 2013
+  changes: Better caller context messages
+- version: 0.0.1
+  date:    Mon Apr  1 08:39:22 PDT 2013
+  changes: First release. Needs work.
